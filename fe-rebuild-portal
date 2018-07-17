@@ -1,0 +1,25 @@
+projectDir=/home/tyler/Development/work/portal/portal-code/portal-manager
+tomcatDir=/opt/tomcat/
+classes='false'
+webapps='false'
+verbose='false'
+
+while getopts cwv flag; do
+    case "${flag}" in
+        c) classes='true';;
+        w) webapps='true';;
+        v) verbose='true';;
+    esac
+done
+
+if ["$classes" = 'true']
+then
+    echo You\'ve Selected Classes
+fi
+if ["$webapps" = 'true']
+then
+    echo You\'ve Selected Webapps
+fi
+
+# rsync -vrt $projectDir/src/main/webapp/* $tomcatDir/webapps/portal-manager/ 
+# rsync -vrt $projectDir/target/classes/* $tomcatDir/webapps/portal-manager/WEB-INF/classes/
