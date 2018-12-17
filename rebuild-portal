@@ -4,9 +4,9 @@ notify-send -i "$HOME/Pictures/kuebix-symbol.png" \
 " 
 Redeploying portal-manager
  "
- cd $HOME/Development/work/portal/portal-code/portal-manager
- mvn tomcat7:redeploy > $HOME/Development/work/portal/portal-code/pm_redeploy.log
- PM_RD_T_TIME=$(cat $HOME/Development/work/portal/portal-code/pm_redeploy.log | grep -i "total time")
+ cd $HOME/Development/work/java/portal-manager
+ mvn tomcat7:redeploy > $HOME/Development/work/java/pm_redeploy.log
+ PM_RD_T_TIME=$(cat $HOME/Development/work/java/pm_redeploy.log | grep -i "total time")
  notify-send  -i "$HOME/Pictures/kuebix-symbol.png" \
  "Tomcat" \
  " 
