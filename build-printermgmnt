@@ -1,0 +1,2 @@
+#!/bin/bash
+yarn start --project=print-node --public-host=https://tlundstrom.kuebix.com

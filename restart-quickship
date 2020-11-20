@@ -1,0 +1,2 @@
+#!/bin/bash
+docker container stop quickship && docker container rm quickship && docker build --build-arg SVCACCT_TCX_CI_USERNAME=tyler_lundstrom@trimble.com --build-arg SVCACCT_TCX_CI_PASSWORD=AKCp8hyipkmeUmu2Gm5ewTaTnVGYwMsS2VbaSCmtm5rxu3cmFaZSLaRZkbeARbER39d9UNUoY -t quickship . && docker run -p 8082:80 --network=trimbletcxprint-service_default --name=quickship quickship:latest

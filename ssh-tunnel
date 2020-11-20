@@ -1,0 +1,2 @@
+#!/bin/bash
+ssh -nNTR 50009:localhost:4200 tlundstrom@tlundstrom.kuebix.com

@@ -1,0 +1,2 @@
+#!/bin/bash
+yarn start --project=quick-ship --public-host=https://tlundstrom.kuebix.com

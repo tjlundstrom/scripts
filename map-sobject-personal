@@ -1,2 +1,2 @@
 #!/bin/bash
-java -jar /home/tyler/Development/work/util/map-sobject/target/mapsobject-jar-with-dependencies.jar -o s,00D0q0000000wSs,cit@kuebix.com.tlundstrom,CSkuebix2015,sAzqyKj1fTtjUUaLLQTfXU0i -n Shipment_Accessorials__c -s -u
+java -jar /Users/tylerlundstrom/Development/work/java/map-sobject/target/mapsobject-jar-with-dependencies.jar -o s,00D0q0000000wSs,cit@kuebix.com.tlundstrom,CSkuebix2015,sAzqyKj1fTtjUUaLLQTfXU0i -n Invoice_Status_EDI__c -s -z
